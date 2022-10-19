@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Custom CSS  -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- MD Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <!-- Slick Slider -->
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css" />
+    <!-- Google Font -->
+    <link rel="stylesheet" href="font/font.css">
+    <title>Frispes</title>
+</head>
+
+<body>
+    <!-- Section Navbar start -->
+    <header class="navigation">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg shadow-none">
+            <div class="container">
+                <!-- Toggle button -->
+                <!-- Navbar brand -->
+                <a class="navbar-brand pt-3" href="#">
+                    <img src="img/logo.svg" alt="Logo" class="img-fluid" />
+                </a>
+                <!-- Menu Button -->
+                <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="img/menubtn.svg" alt="Menu Button" class="img-fluid" />
+                </button>
+                <!-- Collapsible wrapper -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav mx-auto pt-4 lh-1 text-center text-lg-start">
+                        <li class="nav-item">
+                            <a class="nav-link font-lato font-16 fontw700" href="#">Home</a>
+                        </li>
+                        <li class="nav-item px-lg-4">
+                            <a class="nav-link font-lato font-16 fontw700" href="#">Workspace</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-lato font-16 fontw700" href="#">Service</a>
+                        </li>
+                        <li class="nav-item px-lg-4">
+                            <a class="nav-link font-lato font-16 fontw700" href="#">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-lato font-16 fontw700" href="#">Reviews</a>
+                        </li>
+                        <li class="nav-item px-lg-4">
+                            <a class="nav-link font-lato font-16 fontw700" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+
+                    <!-- Right elements -->
+
+                    <form>
+                        <div class=" text-center text-lg-start">
+                            <a href="#!" class="font-lato fontw700 font-16 text-orange pe-4 lh-2">Log In</a>
+                            <a href="#!" type="button" class="font-lato fontw700 font-16 btn bg-orange text-white mt-3"
+                                data-mdb-ripple-color="#ffff">Sign Up</a>
+                        </div>
+                    </form>
+                    <!-- Right elements -->
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar -->
+    </header>
+    <!-- Section Navbar end -->
+
+    <!-- section banner start -->
+    <section class="banner">
+        <div class="container">
+            <h4 class="font-lato">Introducing</h4>
+            <div class="row text-md-start text-center">
+                <div class="col-md-7 ">
+                    <h1 class="font-lora fontw700 font-52 text-darkBlue"><span class="text-orange">Revolutionary</span>
+                        co-working space to realize your innovation</h1>
+                </div>
+                <div class="col-md-5">
+                    <p class="font-lato fontw500 font-20 text-grey pt-md-3">In frispes, we spearhead new initiatives and
+                        provide
+                        mentorship to a new startup, and help grow their opportunities in key local, regional and global
+                        markets</p>
+                </div>
+            </div>
+        </div>
+        <!-- section find space start -->
+        <div class="findSpace">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 offset-lg-4">
+                        <div class="findSpace-content position-relative">
+
+                            <div class="space-location-content">
+                                <div class="spaceLocation">
+                                    <div class="slick-items">
+                                        <img src="img/loaction.svg" class="w-100" />
+                                    </div>
+                                    <div class="slick-items">
+                                        <img src="img/loaction.svg" class="w-100" />
+                                    </div>
+                                    <div class="slick-items">
+                                        <img src="img/loaction.svg" class="w-100" />
+                                    </div>
+                                    <div class="slick-items">
+                                        <img src="img/loaction.svg" class="w-100" />
+                                    </div>
+                                    <div class="slick-items">
+                                        <img src="img/loaction.svg" class="w-100" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="space-select position-absolute d-flex justify-content-center">
+                                <div class="space-select-content bg-darkBlue">
+                                    <h2 class="font-lora fontw700 font-34 text-white pb-3">Find your space now</h2>
+                                    <div class="space-area text-center">
+                                        <div class="form-floating">
+                                            <select
+                                                class="form-select border-0 pb-0 pt-4 rounded-0 font-lato fontw500 font-16"
+                                                id="locationSelect" aria-label="Location Select">
+                                                <option selected>Malang, Indonesia</option>
+                                                <option value="1">Lahore, Pakistan</option>
+                                                <option value="2">Islamababd, Pakistan</option>
+                                                <option value="3">Karachi, Pakistan</option>
+                                            </select>
+                                            <label class="font-lato fontw500 font-16"
+                                                for="locationSelect">Location</label>
+                                        </div>
+
+                                        <div class="form-floating my-xl-4 my-2">
+                                            <select
+                                                class="form-select border-0 pb-0 pt-4 rounded-0 font-lato fontw500 font-16"
+                                                id="typeSelect" aria-label="Type Select">
+                                                <option selected>Private Office</option>
+                                                <option value="1">Public Office</option>
+                                                <option value="2">Public Office</option>
+                                                <option value="3">Public Office</option>
+                                            </select>
+                                            <label class="font-lato fontw500 font-16" for="typeSelect">Type</label>
+                                        </div>
+                                        <div class="form-floating">
+                                            <select
+                                                class="form-select border-0 pb-0 pt-4 rounded-0 font-lato fontw500 font-16"
+                                                id="dateSelect" aria-label="Date Select">
+                                                <option selected>9 Aug 2020</option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                            </select>
+                                            <label class="font-lato fontw500 font-16" for="dateSelect">Date</label>
+                                        </div>
+                                        <button
+                                            class="mt-xl-4 btn font-lato fontw700 font-18 bg-orange text-white py-3 rounded-0 w-100 mt-3">FIND
+                                            MY SPACE</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- section find space end -->
+    </section>
+    <!-- section banner end -->
+    <!-- section our spaces start -->
+    <section class="spaces">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12 text-md-start text-center">
+                    <h2 class="font-lora">Our Spaces</h2>
+                </div>
+                <div class="col-lg-5 col-md-6 col-12 text-md-start text-center py-3 py-lg-0">
+                    <p class="font-lato fontw500 font-18 text-lightgrey">Our space is designed to give you a different
+                        experience when working with your team or personally</p>
+                </div>
+                <div class="col-lg-3 col-12 text-md-start text-center py-3 py-lg-0 abc">
+                    <div class="spaces-slider-arrow d-flex justify-content-lg-end justify-content-center">
+                        <img src="./img/leftArrow.svg"
+                            class="img-fluid me-4 space-left" />
+                        <img src="./img/leftArrow.svg" class="img-fluid rotation-180 space-right" />
+                    </div>
+                </div>
+                <div class="col-12 mt-4">
+                    <div class="row ourSpaces">
+                        <div class="col-xl-4 col-lg-6 col-12 px-3">
+                            <div class="ourSpaces-content slick-items position-relative">
+                                <div class="space-work">
+                                    <img src="img/teamWork.svg" alt="Private Space" class="img-fluid w-100" />
+                                    <div
+                                        class="checkAvail-before bottom-0 bg-orange d-flex justify-content-center position-absolute py-lg-4 py-3">
+
+                                        <img src="img/greaterThan.svg" alt="Right Arrow" class="img-fluid px-5 py-2">
+                                    </div>
+                                </div>
+                                <!-- Second div -->
+                                <div class="private-label d-none">
+                                    <img src="img/Space.svg" alt="Private Space" class="img-fluid w-100" />
+                                    <div class="privateSpace text-center text-white position-absolute">
+                                        <h3 class="font-lora fontw400 font-32 lh-1_5">Private Space</h3>
+                                        <p class="font-lato fontw500 font-18 lh-1_5">Comfortable space, Full speed
+                                            wifi, Free coffe & Snack
+                                            and many more</p>
+                                    </div>
+                                    <div
+                                        class="checkAvail bg-orange d-flex justify-content-center position-absolute py-lg-4 py-3">
+                                        <p class="font-lato fontw700 font-18 mb-0 text-white">Check avaibility
+                                        </p>
+                                        <img src="img/greaterThan.svg" alt="Right Arrow" class="img-fluid ms-5">
+                                    </div>
+                                </div>
+                                <p class="office-text text-center font-lato fontw700 font-20">Private Office</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-12 px-3">
+                            <div class="ourSpaces-content slick-items position-relative">
+                                <div class="space-work">
+                                    <img src="img/officeWork.svg" alt="Private Space" class="img-fluid w-100" />
+                                    <div
+                                        class="checkAvail-before bottom-0 bg-orange d-flex justify-content-center position-absolute py-lg-4 py-3">
+
+                                        <img src="img/greaterThan.svg" alt="Right Arrow" class="img-fluid px-5 py-2">
+                                    </div>
+                                </div>
+                                <!-- Second div -->
+                                <div class="private-label d-none">
+                                    <img src="img/Space.svg" alt="Private Space" class="img-fluid w-100" />
+                                    <div class="privateSpace text-center text-white position-absolute">
+                                        <h3 class="font-lora fontw400 font-32 lh-1_5">Custom Office</h3>
+                                        <p class="font-lato fontw500 font-18 lh-1_5">Comfortable space, Full speed
+                                            wifi, Free coffe & Snack
+                                            and many more</p>
+                                    </div>
+                                    <div
+                                        class="checkAvail bg-orange d-flex justify-content-center position-absolute py-lg-4 py-3">
+                                        <p class="font-lato fontw700 font-18 mb-0 text-white">Check
+                                            avaibility
+                                        </p>
+                                        <img src="img/greaterThan.svg" alt="Right Arrow" class="img-fluid ms-5">
+                                    </div>
+                                </div>
+                                <p class="office-text text-center font-lato fontw700 font-20">Custom Office</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-12 px-3">
+                            <div class="ourSpaces-content slick-items position-relative">
+                                <div class="space-work">
+                                    <img src="img/teamWork.svg" alt="Private Space" class="img-fluid w-100" />
+                                    <div
+                                        class="checkAvail-before bottom-0 bg-orange d-flex justify-content-center position-absolute py-lg-4 py-3">
+
+                                        <img src="img/greaterThan.svg" alt="Right Arrow" class="img-fluid px-5 py-2">
+                                    </div>
+                                </div>
+                                <!-- Second div -->
+                                <div class="private-label d-none">
+                                    <img src="img/Space.svg" alt="Private Space" class="img-fluid w-100" />
+                                    <div class="privateSpace text-center text-white position-absolute">
+                                        <h3 class="font-lora fontw400 font-32 lh-1_5">Working with team</h3>
+                                        <p class="font-lato fontw500 font-18 lh-1_5">Comfortable space, Full speed
+                                            wifi, Free coffe & Snack
+                                            and many more</p>
+                                    </div>
+                                    <div
+                                        class="checkAvail bg-orange d-flex justify-content-center position-absolute py-lg-4 py-3">
+                                        <p class="font-lato fontw700 font-18  mb-0 text-white">Check avaibility
+                                        </p>
+                                        <img src="img/greaterThan.svg" alt="Right Arrow" class="img-fluid ms-5">
+                                    </div>
+                                </div>
+                                <p class="office-text text-center font-lato fontw700 font-20">Working with team</p>
+
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-6 col-12 px-3">
+                            <div class="ourSpaces-content slick-items position-relative">
+                                <div class="space-work">
+                                    <img src="img/teamWork.svg" alt="Private Space" class="img-fluid w-100" />
+                                    <div
+                                        class="checkAvail-before bottom-0 bg-orange d-flex justify-content-center position-absolute py-lg-4 py-3">
+
+                                        <img src="img/greaterThan.svg" alt="Right Arrow" class="img-fluid px-5 py-2">
+                                    </div>
+                                </div>
+                                <!-- Second div -->
+                                <div class="private-label d-none">
+                                    <img src="img/Space.svg" alt="Private Space" class="img-fluid w-100" />
+                                    <div class="privateSpace text-center text-white position-absolute">
+                                        <h3 class="font-lora fontw400 font-32 lh-1_5">Working with team</h3>
+                                        <p class="font-lato fontw500 font-18 lh-1_5">Comfortable space, Full speed
+                                            wifi, Free coffe & Snack
+                                            and many more</p>
+                                    </div>
+                                    <div
+                                        class="checkAvail bg-orange d-flex justify-content-center position-absolute py-lg-4 py-3">
+                                        <p class="font-lato fontw700 font-18 mb-0 text-white">Check avaibility
+                                        </p>
+                                        <img src="img/greaterThan.svg" alt="Right Arrow" class="img-fluid ms-5">
+                                    </div>
+                                </div>
+                                <p class="office-text text-center font-lato fontw700 font-20">Working with team</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="counter d-flex justify-content-center mt-5">
+                        <span class="font-lato fontw500 font-18 text-darkBlue" id="screen">01</span>
+                        <span class="font-lato fontw400 font-16 text-lightgrey ps-1">/04</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section our spaces end -->
+
+    <!-- section workspace start-->
+    <section class="workspace">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-7 d-flex align-items-center">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="d-flex justify-content-center justify-content-sm-start">
+                                <img src="img/meeting-room.svg" alt="Meeting Room" class="img-fluid">
+                                <div class="ps-4 pt-3">
+                                    <h3 class="font-lora fontw400 font-32 lh-1_5 text-darkBlue mb-0">500+</h3>
+                                    <p class="font-lato fontw400 font-16 lh-1_5 text-lightgrey mb-0">Meeting rooms</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 pe-4 pe-md-0 my-3 my-md-0">
+                            <div class="d-flex justify-content-center justify-content-sm-start">
+                                <img src="img/circus.svg" alt="circus" class="img-fluid">
+                                <div class="ps-4 pt-3">
+                                    <h3 class="font-lora fontw400 font-32 lh-1_5 text-darkBlue mb-0">100+</h3>
+                                    <p class="font-lato fontw400 font-16 lh-1_5 text-lightgrey mb-0">Event spaces</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 pe-5 pe-md-0">
+                            <div class="d-flex justify-content-center justify-content-sm-start py-sm-5">
+                                <img src="img/Flag.svg" alt="Flag" class="img-fluid">
+                                <div class="ps-4 pt-3">
+                                    <h3 class="font-lora fontw400 font-32 lh-1_5 text-darkBlue mb-0">60+</h3>
+                                    <p class="font-lato fontw400 font-16 lh-1_5 text-lightgrey mb-0">Countries</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 my-3 my-md-0">
+                            <div class="d-flex justify-content-center justify-content-sm-start py-sm-5">
+                                <img src="img/wifi.svg" alt="wifi" class="img-fluid">
+                                <div class="ps-4 pt-3">
+                                    <h3 class="font-lora fontw400 font-32 lh-1_5 text-darkBlue mb-0">500 Mbps</h3>
+                                    <p class="font-lato fontw400 font-16 lh-1_5 text-lightgrey mb-0">Internet speed</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 ps-2 ps-md-0">
+                            <div class="d-flex justify-content-center justify-content-sm-start">
+                                <img src="img/User.svg" alt="single user" class="img-fluid">
+                                <div class="ps-4 pt-3">
+                                    <h3 class="font-lora fontw400 font-32 lh-1_5 text-darkBlue mb-0">5K+</h3>
+                                    <p class="font-lato fontw400 font-16 lh-1_5 text-lightgrey mb-0">Startup mentors</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 ps-4 ps-md-0 my-3 my-md-0">
+                            <div class="d-flex justify-content-center justify-content-sm-start">
+                                <img src="img/Userz.svg" alt="Multiple Users" class="img-fluid">
+                                <div class="ps-4 pt-3">
+                                    <h3 class="font-lora fontw400 font-32 lh-1_5 text-darkBlue mb-0">200+</h3>
+                                    <p class="font-lato fontw400 font-16 lh-1_5 text-lightgrey mb-0">Communities inside
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-12">
+                    <div class="whyFrispes bg-darkBlue mt-5 mt-lg-0 p-xl-5 px-4 py-5 ">
+                        <h4 class="font-lato text-white">Why Frispes</h4>
+                        <h2 class="font-lora text-white">We revolutionize your workspace</h2>
+                        <p class="font-lato font-20 fontw400 text-white pt-3">With a decade of insights and expertise,
+                            we're decided to reimagine
+                            co-working space, designed to help a new startup grow up and realize their ideas so they can
+                            give a positive impacts on many people</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section workspace ende-->
+
+    <!-- section Our Facilities start -->
+
+    <section class="facilities">
+        <div class="container">
+            <div class="facilities-title">
+                <h4 class="font-lato mb-3">Our Facilities</h4>
+            </div>
+            <div class="col-lg-5 col-12 text-center text-lg-start py-3 py-lg-0">
+                <h2 class="font-lora">All facilities are designed to meet all your needs</h2>
+            </div>
+
+            <div class="row position-relative mt-5">
+                <div class="col-lg-1 order-lg-1 order-2">
+
+                    <ul class="numbering rotation tab-dots">
+                        <li class="tabAct-1 tab-active">
+                            <button type="button">1</button>
+                        </li>
+                        <li class="tabAct-2">
+                            <button type="button">2</button>
+                        </li>
+                        <li class="tabAct-3">
+                            <button type="button">3</button>
+                        </li>
+                        <li class="tabAct-4">
+                            <button type="button">4</button>
+                        </li>
+                        <li class="tabAct-5">
+                            <button type="button">5</button>
+                        </li>
+                    </ul>
+                    <div class="index d-flex position-absolute top-50 counter rotation-270">
+                        <div class="font-lato fontw500 font-18 text-darkBlue">0<span id="screen1">1</span></div>
+                        <div class="font-lato fontw400 font-16 text-lightgrey">/ 05</div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 order-lg-2 order-1">
+                    <div class="facilities-content mt-2 text-center text-lg-start">
+                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"
+                            aria-orientation="vertical">
+                            <a class="nav-link active rounded-0 py-4" id="v-pills-home-tab" data-mdb-toggle="pill"
+                                href="#v-pills-home" role="tab" aria-controls="v-pills-home"
+                                aria-selected="true">Spacious parking area</a>
+                            <a class="nav-link tab_click rounded-0 py-4" id="v-pills-profile-tab" data-mdb-toggle="pill"
+                                href="#v-pills-profile" role="tab" aria-controls="v-pills-profile"
+                                aria-selected="false">Comfortable spaces</a>
+                            <a class="nav-link tab_click rounded-0 py-4" id="v-pills-messages-tab"
+                                data-mdb-toggle="pill" href="#v-pills-messages" role="tab"
+                                aria-controls="v-pills-messages" aria-selected="false">Cozy cafe</a>
+                            <a class="nav-link tab_click rounded-0 py-4" id="v-pills-cafe-tab" data-mdb-toggle="pill"
+                                href="#v-pills-cafe" role="tab" aria-controls="v-pills-cafe" aria-selected="false">Child
+                                playground</a>
+                            <a class="nav-link tab_click rounded-0 py-4" id="v-pills-OutdoorSpaces-tab"
+                                data-mdb-toggle="pill" href="#v-pills-OutdoorSpaces" role="tab"
+                                aria-controls="v-pills-OutdoorSpaces" aria-selected="false">Outdoor spaces</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-8 mt-5 mt-lg-0 order-3">
+                    <!-- Tab content -->
+                    <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                            aria-labelledby="v-pills-home-tab">
+                            <img src="img/cafe.svg" class="img-fluid w-100" />
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                            aria-labelledby="v-pills-profile-tab">
+                            <img src="img/loaction.svg" class="img-fluid w-100" />
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                            aria-labelledby="v-pills-messages-tab">
+                            <img src="img/cafe.svg" class="img-fluid w-100" />
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-cafe" role="tabpanel" aria-labelledby="v-pills-cafe-tab">
+                            <img src="img/loaction.svg" class="img-fluid w-100" />
+                        </div>
+                        <div class="tab-pane fade" id="v-pills-OutdoorSpaces" role="tabpanel"
+                            aria-labelledby="v-pills-OutdoorSpaces-tab">
+                            <img src="img/cafe.svg" class="img-fluid w-100" />
+                        </div>
+                    </div>
+                    <!-- Tab content -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section faclties end  -->
+
+    <!-- section gallery start -->
+
+    <section class="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 offset-lg-6 text-center text-lg-start">
+                    <div class="gallery-content">
+                        <h4 class="font-lato text-start">Frispes gallery</h4>
+                        <h2 class="font-lora">Immersive beautiful co-working space gallery</h2>
+                        <div class="d-flex justify-content-lg-start justify-content-center gallery-silder-btn mb-lg-5 my-5 my-lg-0">
+                            <img src="./img/leftArrow.svg"
+                            class="img-fluid me-4 gallery-left" />
+                        <img src="./img/leftArrow.svg" class="img-fluid rotation-180 gallery-right" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="row gallery-slider">
+                        <div class="col-lg-4">
+                            <div class="gallery-img">
+                                <img src="img/gallery1.svg" />
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="gallery-img">
+                                <img src="img/gallery2.svg" />
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="gallery-img">
+                                <img src="img/gallery3.svg" />
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="gallery-img">
+                                <img src="img/gallery4.svg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- section gallery start -->
+
+    <!-- section users of frispes start -->
+    <section class="users">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="font-lora mb-3">Who uses Frispes?</h2>
+                <p class="font-lato fontw500 font-18 text-lightgrey">Big brands, small bussiness, new startuo and
+                    inividuals</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div
+                        class="brands d-flex align-items-center justify-content-center justify-content-md-between flex-wrap pt-5">
+                        <div class="brand-logo pt-3 pt-lg-0">
+                            <img src="img/google.svg" alt="google" class="img-fluid" />
+                        </div>
+                        <div class="brand-logo pt-3 pt-lg-0">
+                            <img src="img/tokopedia.svg" alt="tokopedia" class="img-fluid" />
+                        </div>
+                        <div class="brand-logo pt-3 pt-lg-0">
+                            <img src="img/upwork.svg" alt="upwork" class="img-fluid" />
+                        </div>
+                        <div class="brand-logo pt-3 pt-lg-0">
+                            <img src="img/ms.svg" alt="Microsoft" class="img-fluid" />
+                        </div>
+                        <div class="brand-logo pt-3 pt-lg-0">
+                            <img src="img/shopify.svg" alt="shopify" class="img-fluid" />
+                        </div>
+                        <div class="brand-logo pt-3 pt-lg-0">
+                            <img src="img/stripe.svg" alt="stripe" class="img-fluid" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section users of frispes end -->
+
+    <!-- section reviews -->
+    <section class="reviews">
+        <div class="container">
+            <div class="row mx-xl-5 px-xl-0">
+                <div class="reviews-title">
+                    <h4 class="font-lato mb-3">Reviews</h4>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="font-lora">What our customers are saying</h2>
+                </div>
+                <div class="col-md-6">
+                    <div
+                        class="reviews-silder-btn mb-lg-5 my-lg-0 my-5 d-flex justify-content-lg-end justify-content-center">
+                        <img src="./img/leftArrow.svg"
+                        class="img-fluid me-4 review-left" />
+                    <img src="./img/leftArrow.svg" class="img-fluid rotation-180 review-right" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-11 offset-xl-2 offset-lg-1 w-100">
+                    <div class="row peopleReviews">
+                        <div class="col-lg-4 px-3">
+                            <div class="card rounded-0 usersReviews px-lg-4 px-md-2 px-0 py-3">
+                                <div class="card-body">
+                                    <p class="card-text font-lato fontw400 font-16">The high-speed internet at frispes
+                                        was so amazing. I can get
+                                        best experience when running video call with my clients. Frispes has spacious
+                                        and safe parking area, that’s what i need because i used to work as freelancer
+                                        for a long time.</p>
+                                    <div class="d-flex position-absolute bottom-0 mb-4">
+                                        <img src="img/review2.svg" alt="Review" class="img-fluid">
+                                        <div class="ps-4">
+                                            <h3 class="font-lato fontw400 font-18 lh-1_5 mb-0">Raymond Thual</h3>
+                                            <p class="font-lato fontw400 font-16 lh-1_5 mb-0">Professional Freelancer
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 px-3">
+                            <div class="card rounded-0 usersReviews px-lg-4 px-md-2 px-0 py-3">
+                                <div class="card-body">
+                                    <p class="card-text font-lato fontw400 font-16">Just three words : Frispes is
+                                        Awesome!</p>
+                                    <div class="d-flex position-absolute bottom-0 mb-4">
+                                        <img src="img/review3.svg" alt="Review" class="img-fluid">
+                                        <div class="ps-4">
+                                            <h3 class="font-lato fontw400 font-18 lh-1_5 mb-0">Yuli Berlian</h3>
+                                            <p class="font-lato fontw400 font-16 lh-1_5 mb-0">IOS Dev at Tokopedia</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4 px-3">
+                            <div class="card rounded-0 usersReviews px-lg-4 px-md-2 px-0 py-3">
+                                <div class="card-body">
+                                    <p class="card-text font-lato fontw400 font-16">The high-speed internet at frispes
+                                        was so amazing. I can get
+                                        best experience when running video call with my clients. Frispes has spacious
+                                        and safe parking area, that’s what i need because i used to work as freelancer
+                                        for a long time.</p>
+                                    <div class="d-flex position-absolute bottom-0 mb-4">
+                                        <img src="img/review2.svg" alt="Review" class="img-fluid">
+                                        <div class="ps-4">
+                                            <h3 class="font-lato fontw400 font-18 lh-1_5 mb-0">Raymond Thual</h3>
+                                            <p class="font-lato fontw400 font-16 lh-1_5 mb-0">Professional Freelancer
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-4 px-3">
+                            <div class="card rounded-0 usersReviews bg-darkBlue px-lg-4 px-md-2 px-0 py-3">
+                                <div class="card-body">
+                                    <p class="card-text font-lato fontw400 font-16">Our team has been working at frispes
+                                        for almost 2 months
+                                        because
+                                        our office still closed. During working at frispes, we feel a new experience, we
+                                        can
+                                        feel working with a beautiful, modern, and comfortable space. And cozy cafe with
+                                        high-speed internet in there. Thank you for frispes and team.</p>
+                                    <div class="d-flex position-absolute bottom-0 mb-4">
+                                        <img src="img/review1.svg" alt="Review" class="img-fluid pt-1">
+                                        <div class="ps-4">
+                                            <h3 class="font-lato fontw400 font-18 lh-1_5 mb-0">Pedro Ibanez</h3>
+                                            <p class="font-lato fontw400 font-16 lh-1_5 mb-0">UI Designer at Google</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section reviews end -->
+
+    <!-- section help center start -->
+    <section class="helpCenter">
+        <div class="container">
+            <h2 class="font-lora text-center mx-auto py-5">Find the answers to anything you need in our Help Center</h2>
+            <div class="row">
+                <div class="col-lg-4 px-3">
+                    <div class="spaceAvailability position-relative text-black shadow-grey p-5 h-100">
+                        <h5 class="font-lora fontw400 font-26 text-center p-3">How do I know if a space is
+                            available?
+                        </h5>
+                        <div class="spaceAvail shadow-orange position-absolute px-4 py-3">
+                            <i class="fa-solid fa-angle-down font-16"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 px-3 py-4 py-lg-0 my-5 my-lg-0">
+                    <div class="spaceAvailability position-relative text-black shadow-grey p-5 h-100">
+                        <h5 class="font-lora fontw400 font-26 text-center p-3">How do i book a space?</h5>
+                        <div class="spaceAvail shadow-orange position-absolute px-4 py-3">
+                            <i class="fa-solid fa-angle-down font-16"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 px-3">
+                    <div class="spaceAvailability position-relative text-black shadow-grey p-5 h-100">
+                        <h5 class="font-lora fontw400 font-26 text-center p-3 pe-5">How do reviews work?</h5>
+                        <div class="spaceAvail shadow-orange position-absolute px-4 py-3">
+                            <i class="fa-solid fa-angle-down font-16"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 text-center pt-5 mt-5">
+                    <a href="#!" class="text-orange">More questions<img src="img/orangeGreater.svg"
+                            class="ms-lg-4 ms-2 img-fluid"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section help center end -->
+
+    <section class="events bg-offwhite">
+        <div class="container mb-lg-0 mb-3">
+            <div class="event-heading d-md-flex justify-content-between pb-5 text-center text-md-left">
+                <h2 class="font-lora">News, events and insights for you</h2>
+                <a href="#!" class="font-lato fontw400 font-16 text-orange pt-3">See more<img
+                        src="img/orangeGreater.svg" class="ms-lg-4 ms-2 img-fluid"></a>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-12">
+                    <div class="card rounded-0">
+                        <div class="row g-0 h-100">
+                            <div class="col-md-6 col-12">
+                                <div class="event-img">
+                                    <img src="img/perchaiTED.png" alt="Sundar pichai TED" class="img-fluid w-100" />
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="card-body insights px-4 pt-5 pb-2 bg-white h-100">
+                                    <h5 class="card-title font-lora fontw700 font-32 lh-1_3 text-darkBlack">Google I / O
+                                        2020 news
+                                        update
+                                    </h5>
+                                    <p class="card-text font-lato fontw400 font-16 lh-1_7 text-lightgrey">Out of concern
+                                        for the health and safety of our developers, employees, and local communities —
+                                        and in line with recent...
+                                    </p>
+                                    <div class="d-flex align-items-end mb-4 mb-xl-0 pt-5">
+                                        <img src="img/perchai.svg" alt="Sundar perchai" class="img-fluid">
+                                        <div class="ps-4 pt-2">
+                                            <h3 class="font-lato fontw400 font-18 lh-1_5 mb-0">Sundar pichai</h3>
+                                            <p class="font-lato fontw400 font-16 lh-1_5 mb-0 text-lightgrey">CEO at
+                                                Google
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="card insights h-100 rounded-0 mt-4 mt-lg-0">
+                        <img src="img/workspace.svg" alt="Workspace" class="card-img-top rounded-0" />
+                        <div class="card-body evenet-heading p-3">
+                            <h5 class="card-title font-lora fontw400 font-22 lh-1_3 text-darkBlack pe-5">Minimal
+                                workspace for
+                                inspirations</h5>
+                            <p class="card-text font-lato fontw400 font-16 lh-1_7 text-lightgrey pb-3">Anthony Masional
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-4">
+                <div class="col-lg-4 col-12">
+                    <div class="card insights h-100 rounded-0 mt-4 mt-lg-0">
+                        <img src="img/remoteWork.svg" alt="Remote Work" class="card-img-top rounded-0" />
+                        <div class="card-body evenet-heading p-3">
+                            <h5 class="card-title font-lora fontw400 font-22 lh-1_3 text-darkBlack pe-3">Does
+                                productivity increase when working remotely ?</h5>
+                            <p class="card-text font-lato fontw400 font-16 lh-1_7 text-lightgrey pb-3">Franck Martin</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="card insights h-100 rounded-0 mt-5 mt-lg-0">
+                        <img src="img/groupWork.png" alt="Group Work" class="card-img-top rounded-0" />
+                        <div class="card-body evenet-heading p-3">
+                            <h5 class="card-title font-lora fontw400 font-22 lh-1_3 text-darkBlack pe-3">Morning routine
+                                to boost your mood</h5>
+                            <p class="card-text font-lato fontw400 font-16 lh-1_7 text-lightgrey pb-3">Elizabeth swan
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 mt-4 mt-lg-0">
+                    <div class="card insights h-100 rounded-0 mt-5 mt-lg-0">
+                        <img src="img/comfortWork.svg" alt="Workspace" class="card-img-top rounded-0" />
+                        <div class="card-body evenet-heading p-3">
+                            <h5 class="card-title font-lora fontw400 font-22 lh-1_3 text-darkBlack pe-3">5+ tips to find
+                                comfortable co-working space</h5>
+                            <p class="card-text font-lato fontw400 font-16 lh-1_7 text-lightgrey pb-3">Mykola Ilschenko
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- section help center end  -->
+
+    <!-- became a member start  -->
+    <section class="member bg-darkBlue p-0 ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 d-flex align-items-center text-center text-lg-start py-3 py-lg-0">
+                    <div class="detail py-3">
+                        <h4 class="font-lato text-white">Became a member</h4>
+                        <h2 class="font-lora text-white mb-0">Ready to try different work
+                            experience now?</h2>
+                        <p class="font-lato fontw400 font-20 lh-1_3 text-offgrey my-3 py-2">Get the best working
+                            experience that you never feel before</p>
+                        <button
+                            class="btn font-lato fontw700 font-18 bg-orange text-white px-3 px-lg-5 py-3 rounded-0 w-50">SIGN
+                            UP
+                            NOW</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-4">
+                    <div class="member-img d-flex justify-content-center">
+                        <img src="img/memberImg.png" alt="Member Image" class="img-fluid w-60" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- became a member start  -->
+    <!-- Footer Section -->
+    <footer class="bg-darkblue-1 text-white font-lato">
+        <div class="container pt-5 pb-lg-5 pb-3">
+            <div class="row  text-center text-lg-start">
+                <div class="col-lg-4 pt-md-0 pt-5">
+                    <ul class="list-unstyled">
+                        <li class="py-2 font-16 fontw400 lh-1_5 text-lightBlack pr-md-5 mr-md-5">
+                            <h1 class="font-lora fontw700 font-52">Frispes</h1>
+                        </li>
+                        <li>
+                            <p class="font-lato fontw400 font-16">We offer comfortable spaces, cozy cafe, high-speed
+                                internet, spacious parking area and many more for your best workspaces and meetings
+                            </p>
+                        </li>
+                        <li class="pt-3">
+                            <div class="socialMedia-logo">
+                                <img src="img/insta.svg" alt="Instagram" class="img-fluid" />
+                                <img src="img/YouTube.svg" alt="Youtube" class="img-fluid mx-2" />
+                                <img src="img/Facebook.svg" alt="Facebook" class="img-fluid" />
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <ul class="list-unstyled pt-4 pt-lg-0">
+                                <li class="pb-md-4 pb-2">
+                                    <h5 class="font-18 fontw500 lh-1 text-whiteOpacs">Spaces</h5>
+                                </li>
+                                <li class="py-2 font-16 fontw400 lh-1_5">
+                                    Co-working spaces
+                                </li>
+                                <li class="py-2 font-16 fontw400 lh-1_5">
+                                    Meeting rooms
+                                </li>
+                                <li class="py-2 font-16 fontw400 lh-1_5">
+                                    Event spaces
+                                </li>
+                                <li class="py-2 font-16 fontw400 lh-1_5">
+                                    Child playground
+                                </li>
+                                <li class="py-2 font-16 fontw400 lh-1_5">
+                                    Cafe & resto
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <ul class="list-unstyled pt-4 pt-lg-0">
+                                <li class="pb-md-4 pb-2">
+                                    <h5 class="font-18 fontw500 lh-1 text-whiteOpacs">Company</h5>
+                                </li>
+                                <li class="py-2 font-16 fontw400 lh-1_5">
+                                    About Us
+                                </li>
+                                <li class="py-2 font-16 fontw400 lh-1_5">
+                                    Pricing
+                                </li>
+                                <li class="py-2 font-16 fontw400 lh-1_5">
+                                    Careers
+                                </li>
+                                <li class="py-2 font-16 fontw400 lh-1_5">
+                                    Press
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <ul class="list-unstyled pt-4 pt-lg-0">
+                                <li class="pb-md-4 pb-2">
+                                    <h5 class="font-18 fontw500 lh-1 text-whiteOpacs">Support</h5>
+                                </li>
+                                <li class="py-2 font-16 fontw400 lh-1_5">
+                                    FAQs
+                                </li>
+                                <li class="py-2 font-16 fontw400 lh-1_5">
+                                    Privacy Policy
+                                </li>
+                                <li class="py-2 font-16 fontw400 lh-1_5">
+                                    Help
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <ul class="list-unstyled pt-4 pt-lg-0">
+                                <li class="pb-md-4 pb-2">
+                                    <h5 class="font-18 fontw500 lh-1 text-whiteOpacs">Contact Us</h5>
+                                </li>
+                                <li class="py-2 font-16 fontw400 lh-1_5">
+                                    <span class="pe-1">E.</span>Hello@frispes.com
+                                </li>
+                                <li class="py-2 font-16 fontw400 lh-1_5 d-md-flex">
+                                    <span class="pe-1">A.</span>
+                                    <p>Jalan Jayakatwang No.301
+                                        Ngasem, Kediri</p>
+                                </li>
+                                <li class="py-2 font-16 fontw400 lh-1_5">
+                                    <span class="pe-1">P.</span>(+62) 82334670000
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End-->
+    <!-- jquery js-->
+    <script src="js/jquery.min.js"></script>
+    <!-- mdbootstrap js -->
+    <script src="js/mdb.min.js"></script>
+    <!-- slick js -->
+    <script src="js/slick.min.js"></script>
+    <!-- main js -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
